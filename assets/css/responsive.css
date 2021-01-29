@@ -235,6 +235,7 @@
     }
     #excursion .excursion-box .box-body .body_info span {
         font-size: 13px;
+        width: 100%;
     }
     #excursion .excursion-box .box-body .body_info {
         padding-bottom: 82px;

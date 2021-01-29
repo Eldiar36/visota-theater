@@ -1,0 +1,376 @@
+@media (max-width: 1300px) {
+    #excursion .container {
+        width: 100%;
+        max-width: 95%;
+    }
+    #excursion .excursion-box .box-body {
+        padding: 50px 90px;
+    }
+    #excursion .excursion-box .box-body .body-option .item:first-child {
+        margin-right: auto;
+    }
+    #excursion .excursion-box .box-body .body-option .item:nth-child(2) {
+        margin-right: auto;
+    }
+    #excursion .excursion-box .box-body .body-option .item:nth-child(3) {
+        margin-right: auto;
+    }
+}
+@media   (max-width: 1200px) {
+    #excursion .excursion-box .box-body .body_info .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #excursion .excursion-box .box-body .body_info span {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #excursion .excursion-box .box-body {
+        padding: 50px 60px;
+    }
+}
+@media (max-width: 1024px) {
+    #excursion .excursion-box .box-header .subtitle {
+        font-size: 45px;
+        line-height: 30px;
+    }
+    #excursion .excursion-box .box-header .title {
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    #excursion .excursion-box .box-header {
+        width: 100%;
+        padding: 395px 0 30px 0;
+        background: url("../images/img1_tablet.png")no-repeat center;
+        background-size: cover;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #excursion .excursion-box .box-body .body_info span {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #excursion .excursion-box .box-body {
+        padding: 20px 73px;
+    }
+    #excursion .excursion-box .box-body .body_info {
+        padding-bottom: 70px;
+    }
+    #excursion .excursion-box .box-body .body-option .name {
+        font-size: 15px;
+    }
+    #excursion .excursion-box .box-body .body-option .subtitle {
+        font-size: 26px;
+    }
+    #excursion .excursion-box .box-body .body-option .subtitle span {
+        font-size: 15px;
+    }
+    #excursion .excursion-box .box-body .body-option .item.last br {
+        display: block;
+    }
+    #excursion .excursion-box .box-body .body-option {
+        display: flex;
+        align-items: baseline;
+        padding: 18px 0 16px 0;
+    }
+    .section-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .section-title:before ,
+    .section-title:after {
+        width: 23px;
+    }
+    .section-title:before{
+        left: -39px;
+    }
+    .section-title:after{
+        right: -39px;
+    }
+    #about-excursion .about-excursion-top .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 72px;
+    }
+    #about-excursion {
+        padding: 58px 0 40px 0;
+    }
+    #about-excursion .section-title-wrap {
+        margin-bottom: 45px;
+    }
+    #about-excursion .box {
+        height: 420px;
+    }
+    #about-excursion .box .title {
+        font-size: 30px;
+    }
+    #about-excursion .box .box-hover_text {
+        padding: 80px 30px 30px 30px;
+    }
+    #about-excursion .box .box-hover_text p {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    #about-excursion .second-row {
+        margin-top: 90px;
+    }
+    #about-excursion .about-excursion-bottom .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0 0 105px;
+    }
+    #about-excursion .second-row .info_text.first-row_col {
+        margin-bottom: 30px;
+    }
+    #about-excursion .second-row .info_text {
+        width: 80%;
+    }
+    #about-excursion .btn-wrap {
+        margin-top: 34px;
+    }
+    #about-excursion .second-row .info_text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #excursion .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    #exclusive .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    #exclusive .info_box .title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 21px;
+    }
+    #exclusive .info_box {
+        padding: 33px 30px 0 30px;
+    }
+    #exclusive .exclusive-box {
+        padding: 32px 26px 26px 26px;
+        height: 100%;
+    }
+    #exclusive .info_box .option .item .second_text {
+        font-size: 12px;
+        color: #292e43;
+        line-height: 15px;
+    }
+    #exclusive .info_box .option .item .name {
+        font-family: "BebasNeueBold", sans-serif;
+        color: #fd227e;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #exclusive .info_box .option .item .img.first img {
+        width: 26px!important;
+        height: 36px!important;
+    }
+    #exclusive .info_box .option .item .img.second img{
+        width: 27px;
+        height: 22px;
+    }
+    #exclusive .info_box .option .item .img.third img{
+        width: 40px;
+        height: 46px;
+    }
+    #exclusive .exclusive-box .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .btn-wrap .button {
+        width: 159px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #exclusive .exclusive-box .btn-wrap .button {
+        margin-top: 69px;
+    }
+}
+@media (max-width: 767px) {
+    #excursion .excursion-box .box-body .body_info {
+        flex-direction: column;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #excursion .excursion-box .box-body .body_info .subtitle {
+        width: 100%;
+    }
+    #about-excursion .second-row .info_text {
+        width: 65%;
+    }
+    #excursion .excursion-box .box-body .body-option {
+        flex-wrap: wrap;
+    }
+    #excursion .excursion-box .box-body .body-option .item {
+        width: 50%;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    #excursion .excursion-box .box-header {
+        width: 100%;
+        padding: 343px 0 30px 0;
+        background: url("../images/img1_mobile.png") no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    #excursion .excursion-box .box-body {
+        padding: 44px 41px 41px 41px;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    #excursion .excursion-box .box-body .body_info span {
+        font-size: 13px;
+    }
+    #excursion .excursion-box .box-body .body_info {
+        padding-bottom: 82px;
+    }
+    #excursion .excursion-box .box-body .body-option {
+        padding: 40px 0 43px 0;
+    }
+    #excursion .excursion-box .box-body .body-option .name {
+        font-size: 13px;
+    }
+    #excursion .excursion-box .box-body .body-option .subtitle {
+        font-size: 24px;
+    }
+    #excursion .excursion-box .box-body .body-option .item.last .name {
+        margin-bottom: 7px;
+    }
+    #excursion .excursion-box .box-body .body-option .item.last .subtitle {
+        line-height: 22px;
+    }
+    #excursion .excursion-box .box-body .body-option .subtitle span {
+        font-size: 13px;
+    }
+    #excursion .excursion-box .box-body .body-option .item:first-child {
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+    #excursion .excursion-box .box-body .body_info .title br{
+        display: none;
+    }
+    #excursion .excursion-box .box-header .subtitle {
+        font-size: 40px;
+        width: 63%;
+        line-height: 45px;
+    }
+    #excursion .excursion-box .box-header .title {
+        font-size: 12px;
+        line-height: 53px;
+        margin-bottom: 0;
+    }
+    #excursion .excursion-box .box-body .btn-wrap {
+        justify-content: flex-start;
+        display: flex;
+    }
+    .btn-wrap .button {
+        width: 141px;
+        height: 28px;
+        font-size: 11px;
+    }
+    .section-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    #about-excursion {
+        padding: 83px 0 42px 0;
+    }
+    #about-excursion .section-title-wrap {
+       text-align: center;
+        width: 40%;
+        margin: 0 auto 40px auto;
+    }
+    #about-excursion .section-title:before ,
+    #about-excursion .section-title:after {
+        top: 12px;
+    }
+    #about-excursion .about-excursion-top .container {
+        padding-left: 40px;
+    }
+    #about-excursion .box .title {
+        font-size: 24px;
+    }
+    #about-excursion .box .box-hover_text p {
+        text-align: left;
+        margin-bottom: 13px;
+        font-size: 9px;
+        line-height: 13px;
+    }
+    #about-excursion .box .box-hover_text {
+        padding: 73px 27px 27px 27px;
+    }
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding: 0 7px;
+    }
+    #about-excursion .slick-dots {
+        position: absolute;
+        bottom: -20px;
+    }
+    #about-excursion .about-excursion-bottom .container {
+        padding: 0 0 0 57px;
+    }
+    #about-excursion .second-row .info_text {
+        width: 82%;
+    }
+    #about-excursion .btn-wrap {
+        margin-top: 41px;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+    #exclusive .exclusive-box {
+        padding: 47px 26px 24px 41px;
+        background-size: cover;
+    }
+    #exclusive .exclusive-box .title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    #exclusive .exclusive-box .subtitle {
+        font-size: 9px;
+        line-height: 9px;
+    }
+    #exclusive .exclusive-box .btn-wrap .button {
+        margin-top: 123px;
+    }
+    #exclusive .info_box {
+        padding: 33px 27px 83px 41px;
+    }
+    #exclusive .info_box .title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    #exclusive .info_box .option .item .name {
+        font-size: 16px;
+    }
+    #exclusive .info_box .option .item .second_text {
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 13px;
+    }
+    #excursion .excursion-box .box-body .body-option .item {
+        width: 47%;
+    }
+}
+@media (max-width: 360px) {
+    #excursion .excursion-box .box-header .subtitle {
+        width: 100%;
+        padding: 0 30px;
+    }
+}

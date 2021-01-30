@@ -21,6 +21,153 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="super-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <ul class="top-nav">
+
+                    <li>
+                        <a href="/schedule/">Расписание</a>
+                    </li>
+                    <li>
+                        <a href="/reviews/">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="/sposoby-oplaty/">Оплата</a>
+                    </li>
+                    <li>
+                        <a href="/thanks/">Благодарности</a>
+                    </li>
+                    <li>
+                        <a href="/blog/">Блог</a>
+                    </li>
+                    <li>
+                        <a href="/o-kompanii/">О компании</a>
+                    </li>
+                    <li>
+                        <a href="/contacts/">Контакты</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-box">
+                <a href="/" class="logo">
+                    <img src="assets/images/logo.svg" width="200" alt=""> </a>
+            </div>
+            <div class="hed-item hidden-xs">
+                <span>наш адрес:</span>
+                <p>г. Москва, Огородный проезд 9Б стр.1 <br>
+                    оф. 23, метро: Бутырская / пл. Останкино</p>
+            </div>
+            <div class="hed-item">
+                <span>контактные телефоны:</span>
+                <div class="item-in">
+                    <div class="number">
+                        <div>
+                            <a class="callibri_phone" href="tel:84950886858">8(495)088-68-58</a>
+                        </div>
+                    </div>
+                    <p>график приема вызовов</p>
+                </div>
+                <div class="item-in">
+                    <div class="number"><a class=".callibri_phone2" href="tel:89265134707">8(926)513-47-07</a></div>
+                    <p>пн-вс с 09:00 до 20:00</p>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a class="call-back btn" href="#modal6" data-toggle="modal" data-target="#modal6"
+                   onclick="ym(32524680, 'reachGoal', 'callback_me'); return true;">Обратный
+                    звонок</a>
+            </div>
+        </div>
+        <div class="header-mdl">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="search">
+                        <form action="/search/" method="GET">
+                            <div class="form-group">
+                                <input placeholder="Поиск тура или экскурсии" type="text" name="q" class="form-control">
+                            </div>
+                            <button class="btn search-btn">Найти</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-7 hidden-xs">
+                    <div class="recomend">
+                        <p>Нас рекомендуют на:</p>
+                        <a href="https://www.tripadvisor.ru/Attraction_Review-g298484-d19067125-Reviews-Visota_Tour-Moscow_Central_Russia.html"
+                           target="_blank"><img src="/local/templates/visota/images/trip-logo.png" alt=""></a>
+
+                    </div>
+                </div>
+                <button class="collapse-btn hidden-lg hidden-md hidden-sm" id="nav-icon" role="button"
+                        data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="col-md-2 col-sm-5 hidden-xs">
+                    <div class="socially">
+                        <a href="https://vk.com/visotatour" target="_blank" class="vk"></a>
+                        <a href="https://www.facebook.com/groups/1163083263722791/" target="_blank" class="fb"></a>
+                        <!--        <a href="https://twitter.com/" target="_blank" class="tw"></a>-->
+                        <a href="https://www.instagram.com/ekskursii_turizm/" target="_blank" class="inst"></a>
+                        <!--        <a href="https://twitter.com/" target="_blank" class="yt"></a>-->
+                        <a href="https://ok.ru/group/52146142773381" target="_blank" class="ok"></a>
+                    </div>
+                </div>
+                <style>
+                    .yt {
+                        background: url(/local/templates/visota/images/yt.png) no-repeat !important;
+                    }
+
+                    .inst {
+                        background: url(/local/templates/visota/images/inst.png) no-repeat !important;
+                    }
+                </style>
+            </div>
+        </div>
+
+
+        <div class="navbar-collapse" id="collapse">
+            <ul class="main-menu">
+                <li>
+                    <a href="/" class="active">Главная</a>
+                </li>
+                <li>
+                    <a href="/ekskursii-po-moskve/">Экскурсии</a>
+                </li>
+                <li>
+                    <a href="/usefull/">Полезное</a>
+                </li>
+                <li>
+                    <a href="/ekskursii-po-moskve/dlja-shkolnikov/">Для школьников</a>
+                </li>
+                <li>
+                    <a href="/tours/">Туры</a>
+                </li>
+                <li>
+                    <a href="/priem-v-moskve/">Прием в Москве</a>
+                </li>
+                <li>
+                    <a href="/transportnoe-obsluzhivanie/">Трансфер</a>
+                </li>
+                <li>
+                    <a href="/foreigners/">Для иностранцев</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</header>
 <main>
     <section id="excursion">
         <div class="container">
@@ -52,7 +199,7 @@
                         </div>
                         <div class="item">
                             <p class="name">группа</p>
-                            <p class="subtitle">5-15  <span>чел</span></p>
+                            <p class="subtitle">5-15 <span>чел</span></p>
                         </div>
                         <div class="item">
                             <p class="name">расписание</p>
@@ -60,7 +207,8 @@
                         </div>
                         <div class="item last">
                             <p class="name">цена</p>
-                            <p class="subtitle">1950    <span>руб.</span>   <span class="second">взр</span> / <br> 1000 <span>руб.</span>  <span class="second">дет</span> </p>
+                            <p class="subtitle">1950 <span>руб.</span> <span class="second">взр</span> / <br> 1000
+                                <span>руб.</span> <span class="second">дет</span></p>
                         </div>
                     </div>
                     <div class="btn-wrap">
@@ -83,7 +231,8 @@
             <div class="container">
                 <div class="row first-row multiple-items">
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall1.png)no-repeat;background-size: cover">
+                        <div class="box box1"
+                             style="background: url(assets/images/hall1.png)no-repeat;background-size: cover">
                             <p class="title">
                                 бетховенский зал
                             </p>
@@ -103,27 +252,33 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall2.png)no-repeat;background-size: cover">
-                            <p class="title" >
+                        <div class="box box1"
+                             style="background: url(assets/images/hall2.png)no-repeat;background-size: cover">
+                            <p class="title">
                                 белый зал
                             </p>
                             <div class="box-hover_text">
-                                <p >Пышные балы с участием императора проходили здесь и длились до самого рассвета. <br> Вы легко
+                                <p>Пышные балы с участием императора проходили здесь и длились до самого рассвета. <br>
+                                    Вы легко
                                     можете представить красавиц высшего света в роскошных платьях среди бело-золотого
-                                    великолепия. Ослепительный блеск украшений соперничал с блеском золота в интерьере и с
+                                    великолепия. Ослепительный блеск украшений соперничал с блеском золота в интерьере и
+                                    с
                                     отражениями свечей в зеркалах.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall3.png)no-repeat;background-size: cover">
+                        <div class="box box1"
+                             style="background: url(assets/images/hall3.png)no-repeat;background-size: cover">
                             <p class="title" style="color: #ffffff">
                                 красный зал
                             </p>
                             <div class="box-hover_text">
-                                <p>В Красном зале устраивался фуршет для императора и самых приближенных к нему особ. <br>
-                                    Акустика этого зала уникальна и сделана специально, чтобы император мог, не напрягая голоса, произносить торжественные речи.
+                                <p>В Красном зале устраивался фуршет для императора и самых приближенных к нему особ.
+                                    <br>
+                                    Акустика этого зала уникальна и сделана специально, чтобы император мог, не напрягая
+                                    голоса, произносить торжественные речи.
                                 </p>
                                 <p>
                                     Во время нашей экскурсии каждый сможет почувство-вать себя в роли императора,
@@ -133,46 +288,56 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall4.png)no-repeat;background-size: cover">
+                        <div class="box box1"
+                             style="background: url(assets/images/hall4.png)no-repeat;background-size: cover">
                             <p style="color: #ffffff;text-align: center" class="title">
                                 зрительный зал. <br>
                                 историческая сцена
                             </p>
                             <div class="box-hover_text">
                                 <p>Каждый гость экскурсии сможет посидеть на лучших местах в партере, побывать в ложах
-                                    бельэтажа и ярусов, каждая из которых имеет отдельный вход и уборную с огромным зеркалом
-                                    и диваном. А учитывая, что стоимость билетов на эти места доходит до 100 000 рублей и
+                                    бельэтажа и ярусов, каждая из которых имеет отдельный вход и уборную с огромным
+                                    зеркалом
+                                    и диваном. А учитывая, что стоимость билетов на эти места доходит до 100 000 рублей
+                                    и
                                     более, – это особенно приятно.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall5.png)no-repeat;background-size: cover">
+                        <div class="box box1"
+                             style="background: url(assets/images/hall5.png)no-repeat;background-size: cover">
                             <p style="color: #ffffff" class="title">
                                 репетиционная сцена
                             </p>
                             <div class="box-hover_text">
-                                <p>Только у гостей нашей экскурсии есть уникальная возможность побывать на этой закрытой ото
-                                    всех сцене, а если повезет, посмотреть репетицию оперы или балета. Увидеть, как балерины
+                                <p>Только у гостей нашей экскурсии есть уникальная возможность побывать на этой закрытой
+                                    ото
+                                    всех сцене, а если повезет, посмотреть репетицию оперы или балета. Увидеть, как
+                                    балерины
                                     разминаются и репетируют перед тем, как выйти на главную балетную сцену страны.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box box1" style="background: url(assets/images/hall6.png)no-repeat;background-size: cover">
+                        <div class="box box1"
+                             style="background: url(assets/images/hall6.png)no-repeat;background-size: cover">
                             <p style="color: #ffffff;text-align: center" class="title">
                                 пошивочный цех. <br>
                                 выставка костюмов
                             </p>
                             <div class="box-hover_text">
-                                <p>Труд мастеров помноженный на талант балерин создают знаменитые на весь Мир образы ведущих
-                                    партий в главных балетных постановках Большого театра: «Лебединое озеро», «Баядерка»,
+                                <p>Труд мастеров помноженный на талант балерин создают знаменитые на весь Мир образы
+                                    ведущих
+                                    партий в главных балетных постановках Большого театра: «Лебединое озеро»,
+                                    «Баядерка»,
                                     «Сильфида».
                                 </p>
                                 <p>
-                                    Только на нашей экскурсии вы сможете в мельчайших подробностях рассмотреть уникальные
+                                    Только на нашей экскурсии вы сможете в мельчайших подробностях рассмотреть
+                                    уникальные
                                     сценические костюмы и сфотографироваться с ними в интерьерах Большого театра.
                                 </p>
                             </div>
@@ -248,11 +413,11 @@
                         <p class="subtitle">
                             Для организации особой программы <br> для себя и близких закажите <br> обратный звонок
                         </p>
-                       <div class="btn-wrap">
-                           <a href="#" class="button">
-                               Заказать звонок
-                           </a>
-                       </div>
+                        <div class="btn-wrap">
+                            <a href="#" class="button">
+                                Заказать звонок
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -262,23 +427,24 @@
                         </h3>
                         <div class="option">
                             <div class="item">
-                               <div class="img first">
-                                   <img  src="assets/images/pasport.png" alt="">
-                               </div>
+                                <div class="img first">
+                                    <img src="assets/images/pasport.png" alt="">
+                                </div>
                                 <div class="name">паспорт</div>
                                 <div class="second_text">
                                     все участники экскурсии получают специальный пропуск в Большой театр по паспорту
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img second"><img  src="assets/images/camera.png" alt=""></div>
+                                <div class="img second"><img src="assets/images/camera.png" alt=""></div>
                                 <div class="name">камеру</div>
                                 <div class="second_text">
-                                    фотографировать можно все, за исключением людей. Репетиции, к сожалению, фотографировать нельзя
+                                    фотографировать можно все, за исключением людей. Репетиции, к сожалению,
+                                    фотографировать нельзя
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="img third"><img  src="assets/images/man.png" alt=""></div>
+                                <div class="img third"><img src="assets/images/man.png" alt=""></div>
                                 <div class="name">себя</div>
                                 <div class="second_text">
                                     а также запас любопытства и хорошего настрония
@@ -290,15 +456,668 @@
             </div>
         </div>
     </section>
-</main>
-<footer>
+    <div class="comments">
+        <div class="container">
+            <div class="headline">
+                <span>Отзывы наших клиентов</span>
+                <p><a href="/reviews/">смотреть все отзывы</a></p>
+            </div>
+            <div class="slider-container">
+                <div class="row comm-slider  slick-slider">
+                    <div class="col-md-4">
+                        <div class="comm-item" style="display: flex;flex-direction: column;">
+                            <div class="top">
+                                <div class="desc" style="padding-left: 0;width: 100%;">
+                                    <div class="name"
+                                         style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        Ирина Герасимова
+                                    </div>
+                                    <div class="date">06.01.2020</div>
+                                    <div class="rating">
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="">
 
+                                Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в
+                                Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали,
+                                создали праздничное настроение и помогли сделать правильный выбор! Дети в
+                                восторге, особенно от чаепития, под впечатлением еще неделю рассматривали
+                                фотографии с экскур...</p>
+                        </div>
+                        <div class="d-none" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing">
+                                <meta itemprop="name"
+                                      content="Экскурсионное бюро Высота-Тур - экскурсии по Москве">
+                            </div>
+                            <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                <meta itemprop="name" content="Ирина Герасимова">
+                            </div>
+                            <meta itemprop="datePublished" content="06.01.2020">
+                            <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+                                <meta itemprop="ratingValue" content="5">
+                                <meta itemprop="worstRating" content="1">
+                                <meta itemprop="bestRating" content="5">
+                            </div>
+                            <meta itemprop="reviewBody" content="<div>
+</div>
+Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали, создали праздничное настроение и помогли сделать правильный выбор! Дети в восторге, особенно от чаепития, под впечатлением еще неделю рассматривали фотографии с экскурсии, родители довольны!
+<p style=" text-align:="" justify;
+                            "="">
+                            <p></p>
+                            <h1></h1>
+                            <br>
+                            <br>"&gt;
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="comm-item" style="display: flex;flex-direction: column;">
+                            <div class="top">
+                                <div class="desc" style="padding-left: 0;width: 100%;">
+                                    <div class="name"
+                                         style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        Ирина Герасимова
+                                    </div>
+                                    <div class="date">06.01.2020</div>
+                                    <div class="rating">
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="">
+
+                                Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в
+                                Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали,
+                                создали праздничное настроение и помогли сделать правильный выбор! Дети в
+                                восторге, особенно от чаепития, под впечатлением еще неделю рассматривали
+                                фотографии с экскур...</p>
+                        </div>
+                        <div class="d-none" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing">
+                                <meta itemprop="name"
+                                      content="Экскурсионное бюро Высота-Тур - экскурсии по Москве">
+                            </div>
+                            <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                <meta itemprop="name" content="Ирина Герасимова">
+                            </div>
+                            <meta itemprop="datePublished" content="06.01.2020">
+                            <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+                                <meta itemprop="ratingValue" content="5">
+                                <meta itemprop="worstRating" content="1">
+                                <meta itemprop="bestRating" content="5">
+                            </div>
+                            <meta itemprop="reviewBody" content="<div>
+</div>
+Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали, создали праздничное настроение и помогли сделать правильный выбор! Дети в восторге, особенно от чаепития, под впечатлением еще неделю рассматривали фотографии с экскурсии, родители довольны!
+<p style=" text-align:="" justify;
+                            "="">
+                            <p></p>
+                            <h1></h1>
+                            <br>
+                            <br>"&gt;
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="comm-item" style="display: flex;flex-direction: column;">
+                            <div class="top">
+                                <div class="desc" style="padding-left: 0;width: 100%;">
+                                    <div class="name"
+                                         style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        Ирина Герасимова
+                                    </div>
+                                    <div class="date">06.01.2020</div>
+                                    <div class="rating">
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="">
+
+                                Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в
+                                Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали,
+                                создали праздничное настроение и помогли сделать правильный выбор! Дети в
+                                восторге, особенно от чаепития, под впечатлением еще неделю рассматривали
+                                фотографии с экскур...</p>
+                        </div>
+                        <div class="d-none" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing">
+                                <meta itemprop="name"
+                                      content="Экскурсионное бюро Высота-Тур - экскурсии по Москве">
+                            </div>
+                            <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                <meta itemprop="name" content="Ирина Герасимова">
+                            </div>
+                            <meta itemprop="datePublished" content="06.01.2020">
+                            <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+                                <meta itemprop="ratingValue" content="5">
+                                <meta itemprop="worstRating" content="1">
+                                <meta itemprop="bestRating" content="5">
+                            </div>
+                            <meta itemprop="reviewBody" content="<div>
+</div>
+Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали, создали праздничное настроение и помогли сделать правильный выбор! Дети в восторге, особенно от чаепития, под впечатлением еще неделю рассматривали фотографии с экскурсии, родители довольны!
+<p style=" text-align:="" justify;
+                            "="">
+                            <p></p>
+                            <h1></h1>
+                            <br>
+                            <br>"&gt;
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="comm-item" style="display: flex;flex-direction: column;">
+                            <div class="top">
+                                <div class="desc" style="padding-left: 0;width: 100%;">
+                                    <div class="name"
+                                         style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        Ирина Герасимова
+                                    </div>
+                                    <div class="date">06.01.2020</div>
+                                    <div class="rating">
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="">
+
+                                Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в
+                                Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали,
+                                создали праздничное настроение и помогли сделать правильный выбор! Дети в
+                                восторге, особенно от чаепития, под впечатлением еще неделю рассматривали
+                                фотографии с экскур...</p>
+                        </div>
+                        <div class="d-none" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing">
+                                <meta itemprop="name"
+                                      content="Экскурсионное бюро Высота-Тур - экскурсии по Москве">
+                            </div>
+                            <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                <meta itemprop="name" content="Ирина Герасимова">
+                            </div>
+                            <meta itemprop="datePublished" content="06.01.2020">
+                            <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+                                <meta itemprop="ratingValue" content="5">
+                                <meta itemprop="worstRating" content="1">
+                                <meta itemprop="bestRating" content="5">
+                            </div>
+                            <meta itemprop="reviewBody" content="<div>
+</div>
+Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали, создали праздничное настроение и помогли сделать правильный выбор! Дети в восторге, особенно от чаепития, под впечатлением еще неделю рассматривали фотографии с экскурсии, родители довольны!
+<p style=" text-align:="" justify;
+                            "="">
+                            <p></p>
+                            <h1></h1>
+                            <br>
+                            <br>"&gt;
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="comm-item" style="display: flex;flex-direction: column;">
+                            <div class="top">
+                                <div class="desc" style="padding-left: 0;width: 100%;">
+                                    <div class="name"
+                                         style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">
+                                        Ирина Герасимова
+                                    </div>
+                                    <div class="date">06.01.2020</div>
+                                    <div class="rating">
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="">
+
+                                Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в
+                                Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали,
+                                создали праздничное настроение и помогли сделать правильный выбор! Дети в
+                                восторге, особенно от чаепития, под впечатлением еще неделю рассматривали
+                                фотографии с экскур...</p>
+                        </div>
+                        <div class="d-none" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                            <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing">
+                                <meta itemprop="name"
+                                      content="Экскурсионное бюро Высота-Тур - экскурсии по Москве">
+                            </div>
+                            <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                                <meta itemprop="name" content="Ирина Герасимова">
+                            </div>
+                            <meta itemprop="datePublished" content="06.01.2020">
+                            <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+                                <meta itemprop="ratingValue" content="5">
+                                <meta itemprop="worstRating" content="1">
+                                <meta itemprop="bestRating" content="5">
+                            </div>
+                            <meta itemprop="reviewBody" content="<div>
+</div>
+Благодарим организаторов новогодней экскурсии «Усадьба Деда Мороза в Кузьминках», а также сотрудников бюро «Высота»! Подробно проконсультировали, создали праздничное настроение и помогли сделать правильный выбор! Дети в восторге, особенно от чаепития, под впечатлением еще неделю рассматривали фотографии с экскурсии, родители довольны!
+<p style=" text-align:="" justify;
+                            "="">
+                            <p></p>
+                            <h1></h1>
+                            <br>
+                            <br>"&gt;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="ftr-top ">
+        <div class="container">
+            <div class="ftr-sitemap">
+                <div class="f-item">
+                    <div class="f-title hidden-xs">Популярные</div>
+                    <button class="f-title d-none hidden-lg hidden-md hidden-sm" role="button" data-toggle="collapse"
+                            data-target="#f-collapse-1" aria-expanded="false" aria-controls="collapse">Популярные
+                    </button>
+                    <div class="navbar-collapse " id="f-collapse-1">
+                        <ul class="f-menu">
+                            <ul class="top-nav">
+
+                                <li><a href="/ekskursii-po-moskve/">Экскурсии по Москве</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/kreml/">Экскурсии в Кремль</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/avtobusnye/">Автобусные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/peshekhodnye/">Пешеходные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/moskva-siti/">Экскурсии в Москва сити</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/obzornye/">Обзорные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/mesta-otpravlenija/ot-krasnoj-plosshadi/avtobusnye/">Экскурсии
+                                    на автобусе от Красной Площади</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/avtorskie/">Авторские экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/avtobusnye/nochnye/">Ночные экскурсии на автобусе</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/v-metro-moskvy/">Экскурсии в метро</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/neobychnye/">Необычные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/nochnye/">Ночные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/individualnye/">Индивидуальные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/po-vechernej-moskve/">Вечерние экскурсии по Москве</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/na-teplokhode/">Экскурсии по Москве реке на
+                                    теплоходе</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/avtobusnye/dvuhetazhnyj-avtobus/obzornye/">Обзорные
+                                    экскурсии на двухэтажном автобусе</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/misticheskie/">Мистические экскурсии по Москве</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/gastronomicheskie/">Гастрономические экскурсии по
+                                    Москве</a></li>
+
+                                <li><a href=""></a></li>
+
+                                <li><a href=""></a></li>
+
+
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <div class="f-title hidden-xs">Для детей</div>
+                    <button class="f-title d-none hidden-lg hidden-md hidden-sm" role="button" data-toggle="collapse"
+                            data-target="#f-collapse-2" aria-expanded="false" aria-controls="collapse">Для детей
+                    </button>
+                    <div class="navbar-collapse " id="f-collapse-2">
+                        <ul class="f-menu">
+                            <ul class="top-nav">
+
+                                <li><a href="/ekskursii-po-moskve/prazdnechnye/novogodnie/dlja-detej/">Новогодние
+                                    экскурсии для детей</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/na-proizvodstvo/shokoladnaja-fabrika/">Экскурсии на
+                                    шоколадную фабрику</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/na-proizvodstvo/">Экскурсии на производство</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/bunkery/stalina/">Экскурсии в бункер Сталина</a></li>
+
+                                <li><a href="#">Экскурсии по Москве реке</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/pravoslvnye/">Православные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/po-krysham-moskvy/">Экскурсии по крышам</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-detej/v-pozharnuyu-chast/">Экскурсии в пожарную
+                                    часть</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/obzornye/moskva-siti/">Обзорные экскурсии по Москва
+                                    сити</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/na-proizvodstvo/pivzavod/">Экскурсии на пивзавод</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-detej/podrostki/">Интересные экскурсии для
+                                    подростков</a></li>
+
+                                <li><a href="/#">Экскурсии на паровозе</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/muzei/">Экскурсии в музеи</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-detej-i-roditelej/">Экскурсии для детей и
+                                    родителей</a></li>
+
+                                <li><a href="/#">Новогодние однодневные экскурсии</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/kreml/obzornye/">Обзорные экскурсии по Кремлю</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-detej/peshekhodnye/">Пешеходные экскурсии</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/ekstremalnye/">Экстремальные экскурсии</a></li>
+
+
+                            </ul>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <div class="f-title hidden-xs">Для малышей</div>
+                    <button class="f-title d-none hidden-lg hidden-md hidden-sm" role="button" data-toggle="collapse"
+                            data-target="#f-collapse-3" aria-expanded="false" aria-controls="collapse">Для малышей
+                    </button>
+                    <div class="navbar-collapse " id="f-collapse-3">
+                        <ul class="f-menu">
+                            <ul class="top-nav">
+
+                                <li><a href="/ekskursii-po-moskve/dlja-doshkolnikov/">Экскурсии для дошкольников</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/nachalnye-klassy/">Экскурсии для
+                                    начальных классов</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/1-klass/">Экскурсии для
+                                    первоклассников</a></li>
+
+
+                            </ul>
+
+                        </ul>
+                    </div>
+                    <div class="f-title hidden-xs">Для школьников</div>
+                    <button class="f-title d-none hidden-lg hidden-md hidden-sm" role="button" data-toggle="collapse"
+                            data-target="#f-collapse-4" aria-expanded="false" aria-controls="collapse">Для школьников
+                    </button>
+                    <div class="navbar-collapse " id="f-collapse-4">
+                        <ul class="f-menu">
+                            <ul class="top-nav">
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/avtobusnye/">Автобусные экскурсии</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/kreml/">Экскурсии в Кремль</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/na-proizvodstvo/">Экскурсии на
+                                    производство</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/na-proizvodstvo/na-hlebzavod/">Экскурсии
+                                    на хлебозавод</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/tematicheskie/bulgakovskaja-moskva/">Экскурсии
+                                    Булгаковская Москва</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/po-osobnjakam-moskvy/">Экскурсии в особняки Москвы</a>
+                                </li>
+
+                                <li><a href="/ekskursii-po-moskve/bunkery/">Экскурсии в бункеры в Москве</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/muzei/">Экскурсии в музеи</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/dlja-shkolnikov/interaktivnye/">Интерактивные
+                                    экскурсии для школьников</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/prazdnechnye/novogodnie/avtobusnye/">Автобусные
+                                    экскурсии в новогодние каникулы</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/prazdnechnye/na-maslenitsu/dlja-shkolnikov/">Экскурсии
+                                    на масленицу</a></li>
+
+                                <li><a href="/ekskursii-po-moskve/na-teplokhode/">Водные экскурсии по Москве</a></li>
+
+
+                            </ul>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="f-item">
+
+                </div> -->
+            </div>
+        </div>
+        <hr class="ftr-top-hr">
+        <div class="container ftr-about">
+            <div class="f-title hidden-xs">О компании</div>
+            <button class="f-title hidden-lg hidden-md hidden-sm" role="button" data-toggle="collapse"
+                    data-target="#f-collapse-5" aria-expanded="false" aria-controls="collapse">О компании
+            </button>
+            <div class="navbar-collapse " id="f-collapse-5">
+                <ul class="f-menu">
+                    <ul class="top-nav">
+
+                        <li><a href="/komanda/">Команда</a></li>
+
+                        <li><a href="/exkursovody/">Экскурсоводы</a></li>
+
+                        <li><a href="/o-kompanii/">О компании</a></li>
+
+                        <li><a href="/rekvizity/">Реквизиты</a></li>
+
+                        <li><a href="/contacts/">Контакты</a></li>
+
+                        <li><a href="/vakansii/">Вакансии</a></li>
+
+                        <li><a href="/press/">Пресса о нас</a></li>
+
+                        <li><a href="/podarochnie-sertifikaty/">Подарочные сертификаты</a></li>
+
+                        <li><a href="/kak-kupit/">Как купить/забронировать</a></li>
+
+                        <li><a href="/sposoby-oplaty/">Способы оплаты</a></li>
+
+                        <li><a href="/dostavka/">Доставка</a></li>
+
+                        <li><a href="/pravila-vozvrata-biletov/">Правила возврата билетов</a></li>
+
+                        <li><a href="/pravila-posesheniya/">Правила посещения экскурсий</a></li>
+
+                        <li><a href="/pravila-provedeniya-gruppovih-ekskurkiy/">Правила проведения групповых
+                            экскурсий</a></li>
+
+                        <li><a href="/pravila-provedeniya-sbornih-grupp/">Правила проведения сборных экскурсий</a></li>
+
+                        <li><a href="/pravila-provedeniya-individualnih-ekskursiy/">Правила проведения индивидуальных
+                            экскурсий</a></li>
+
+                        <li><a href="/pravila-obrabotki-personalnih-dannih/">Правило обработки персональных данных</a>
+                        </li>
+
+                        <li><a href="/sitemap-html/">Карта сайта</a></li>
+
+                        <li><a href=""></a></li>
+
+
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ftr-middle">
+        <div class="container">
+            <div class="f-item" style="display: flex;flex-wrap: wrap;justify-content: space-between;">
+                <div class="contact-item">
+                    <div class="ftr-item">
+                        <!---->
+                        <div class="logo-box" style="margin-bottom: 15px;">
+                            <a href="/" class="logo">
+                                <img src="assets/images/footer_logo.png" width="180" alt=""> </a>
+
+                        </div>
+                        <hr class="ftr-hr">
+                        <!---->
+                        <p>Мы в социальных сетях:</p>
+                        <div class="socially" style="margin-bottom: auto;">
+                            <a href="https://vk.com/visotatour" target="_blank" class="vk"></a>
+                            <a href="https://www.facebook.com/groups/1163083263722791/" target="_blank" class="fb"></a>
+                            <!--        <a href="https://twitter.com/" target="_blank" class="tw"></a>-->
+                            <a href="https://www.instagram.com/ekskursii_turizm/" target="_blank" class="inst"></a>
+                            <!--        <a href="https://twitter.com/" target="_blank" class="yt"></a>-->
+                            <a href="https://ok.ru/group/52146142773381" target="_blank" class="ok"></a>
+                        </div>
+                        <hr class="ftr-hr">
+                        <!---->
+                        <div class="payment">
+                            <a href="/payment/"><img src="assets/images/payment.png" alt=""></a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="contact-item footer-callbacks">
+                    <!---->
+                    <div class="ftr-item ftr-item-padding">
+                        <p class="contact-item-title contact-item-title-phone">Контактные телефоны:</p>
+                        <div class="number">
+                            <a class="callibri_phone" href="tel:84950886858">+7 (495) 088-68-58</a>
+                        </div>
+                        <span class="inf">Многоканальный</span>
+                        <div class="number">
+                            <a class="callibri_phone" href="tel:+79253185216">+7 (925) 318-52-16</a>
+                        </div>
+                        <span class="inf">Whats App / Viber</span>
+                        <!---->
+                        <a class="btn call-back" href="#modal6" data-toggle="modal" data-target="#modal6"
+                           onclick="ym(32524680, 'reachGoal', 'callback_me'); return true;">Обратный звонок</a>
+                        <a class="order_pay btn" style="display: none;" href="#modal9" data-toggle="modal"
+                           data-target="#modal9">Оплатить заказ</a>
+                        <a href="mailto:info@visotatour.ru" class="email">info@visotatour.ru</a>
+                        <!---->
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="ftr-item ftr-item-padding">
+                        <p class="contact-item-title contact-item-title-adress">Наш адрес:</p>
+                        <p>
+                            м. Бутырская<br>
+                            пл. Останкино<br>
+                            Огородный пр. 9Б,<br>стр.1, офис 23
+                        </p></div>
+                    <div class="ftr-item ftr-item-padding">
+                        <p class="contact-item-title contact-item-title-payments">Способы оплаты</p>
+                        <ul>
+                            <li>- Наличными</li>
+                            <li>- Мир / Visa / MasterCard</li>
+                            <li>- Безналичная оплата</li>
+                            <li>- Наличными курьеру</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="ftr-item ftr-item-padding">
+                        <p class="contact-item-title contact-item-title-worktime">График работы офиса:</p>
+                        <ul>
+                            <li>Пн.-Пт. ...... с 10:00 до 20:00</li>
+                            <li>Сб. ............. с 10:00 до 14:00</li>
+                            <li>Вс .............. выходной</li>
+                        </ul>
+                    </div>
+                    <div class="ftr-item ftr-item-padding">
+                        <p class="contact-item-title contact-item-title-recomend">Нас рекомендуют на:</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.tripadvisor.ru/Attraction_Review-g298484-d19067125-Reviews-Visota_Tour-Moscow_Central_Russia.html"
+                                   target="_blank">- TripAdvisor</a></li>
+                            <li>
+                                <a href="https://zoon.ru/msk/hotels/ekskursionnoe_byuro_vysota/" target="_blank">-
+                                    Zoon</a>
+                            </li>
+                            <li>
+                                <a href="https://yandex.ru/search/?text=%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D0%B0%20%D1%82%D1%83%D1%80%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D0%B8%20&amp;lr=213&amp;mda=0&amp;redircnt=1601799733.1"
+                                   target="_blank">- Яндекс</a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/search?q=%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D0%B0+%D1%82%D1%83%D1%80&amp;&amp;oq=%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D0%B0+%D1%82%D1%83%D1%80&amp;&amp;aqs=chrome..69i57j69i61l2j35i39j0l2.2415j0j7&amp;&amp;sourceid=chrome&amp;&amp;ie=UTF-8"
+                                   target="_blank">- Google</a>
+                            </li>
+                            <li>
+                                <a href="https://otzovik.com/reviews/ekskursionnoe_byuro_visota-tur_russia_moscow"
+                                   target="_blank"> - Otzovik.com</a>
+                            </li>
+                            <li>- Osd.ru</li>
+                            <li>
+                                <a href="https://irecommend.ru/content/ekskursionnoe-byuro-vysota-tur-moskva"
+                                   target="_blank">- iReccomend.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ftr-btm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copy">© 2021 «Высота экскурсионное бюро»</div>
+                </div>
+                <div class="col-md-4">
+                    <!-- <div class="f-info"><a href="#">Мы в реестре туроператоров</a></div> -->
+                </div>
+                <div class="col-md-4">
+                    <a href="/polit/">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 <script
         src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

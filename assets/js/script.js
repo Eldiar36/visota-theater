@@ -21,3 +21,9 @@
             },
         ]
     });
+    $('.comm-slider').slick({
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+    });
+

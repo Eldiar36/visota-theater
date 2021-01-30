@@ -588,6 +588,10 @@ main {
     font-size: 36px;
     line-height: 40px;
     color: #292e43;
+    transition: .4s ease-in;
+}
+#about-excursion .second-row .info_text p:hover {
+    color: #fd227e;
 }
 #about-excursion .second-row {
     margin-top: 82px;

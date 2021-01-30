@@ -231,10 +231,10 @@
         width: 100%;
         margin-bottom: 40px;
         font-size: 30px;
-        line-height: 45px;
+        line-height: 34px;
     }
     #excursion .excursion-box .box-body .body_info span {
-        font-size: 13px;
+        font-size: 15px;
         width: 100%;
     }
     #excursion .excursion-box .box-body .body_info {
@@ -309,7 +309,7 @@
     #about-excursion .box .box-hover_text p {
         text-align: left;
         margin-bottom: 13px;
-        font-size: 9px;
+        font-size: 13px;
         line-height: 13px;
     }
     #about-excursion .box .box-hover_text {
@@ -343,8 +343,8 @@
         margin-bottom: 16px;
     }
     #exclusive .exclusive-box .subtitle {
-        font-size: 9px;
-        line-height: 9px;
+        font-size: 13px;
+        line-height: 15px;
     }
     #exclusive .exclusive-box .btn-wrap .button {
         margin-top: 123px;
@@ -361,7 +361,7 @@
         font-size: 16px;
     }
     #exclusive .info_box .option .item .second_text {
-        font-size: 9px;
+        font-size: 12px;
         font-weight: 700;
         line-height: 13px;
     }
@@ -373,5 +373,8 @@
     #excursion .excursion-box .box-header .subtitle {
         width: 100%;
         padding: 0 30px;
+    }
+    #excursion .excursion-box .box-body .body-option .subtitle {
+        font-size: 21px;
     }
 }

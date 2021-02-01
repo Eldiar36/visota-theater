@@ -445,13 +445,27 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+#excursion .excursion-box .box-header:after{
+    content: "";
+    background: url("../images/Rectangle 1 copy 3.png")no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 #excursion {
     padding-top: 80px;
 }
 #excursion .container {
     width: 100%;
-    max-width: 1412px;
+    max-width: 100%;
+    padding: 0;
+
 }
 #excursion .excursion-box .box-header .title {
     font-size: 28px;
@@ -459,12 +473,15 @@ main {
     color: #fd227e;
     font-weight: 700;
     text-transform: uppercase ;
+    letter-spacing: 8.4px;;
+    z-index: 100;
 }
 #excursion .excursion-box .box-header .subtitle {
     font-family: "BebasNeueBold", sans-serif;
     font-size: 90px;
     line-height: 80px;
     color: #ffffff;
+    z-index: 100;
 }
 #excursion .excursion-box .box-body {
     padding: 50px 116px;
@@ -477,20 +494,19 @@ main {
 }
 #excursion .excursion-box .box-body .body_info {
     display: flex;
-    justify-content: space-between;
 }
 #excursion .excursion-box .box-body .body_info .title {
     font-size: 50px;
     line-height: 52px;
     color: #fd227e;
     font-family: "BebasNeueBold", sans-serif;
-    width: 44%;
+    width: 38%;
 }
 #excursion .excursion-box .box-body .body_info span{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 20px;
     color: #ffffff;
-    width: 48%;
+    width: 37%;
 }
 #excursion .excursion-box .box-body .body-option {
     display: flex;
@@ -508,8 +524,9 @@ main {
 }
 #excursion .excursion-box .box-body .body-option .name {
     font-size: 20px;
-    font-family: "BebasNeueBold",sans-serif;
+    font-family: "BebasNeueBold", sans-serif;
     color: #ffffff;
+    letter-spacing: 2px;
 }
 #excursion .excursion-box .box-body .body-option .subtitle span {
     font-size: 20px;
@@ -579,6 +596,7 @@ main {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 14px;
+    text-align: left;
 }
 #about-excursion .box .box-hover_text p:last-child{
     margin-bottom: 0;

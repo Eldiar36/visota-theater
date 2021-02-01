@@ -1,3 +1,11 @@
+@media (max-width: 1500px) {
+    #excursion .excursion-box .box-body .body_info span {
+        width: 50%;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        width: 50%;
+    }
+}
 @media (max-width: 1300px) {
     #excursion .container {
         width: 100%;
@@ -15,6 +23,7 @@
     #excursion .excursion-box .box-body .body-option .item:nth-child(3) {
         margin-right: auto;
     }
+
 }
 @media   (max-width: 1200px) {
     #excursion .excursion-box .box-body .body_info .title {
@@ -215,6 +224,28 @@
         width: 50%;
         justify-content: center;
     }
+    #excursion .excursion-box .box-body .body_info span {
+        width: 100%;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        width: 100%;
+    }
+    .btn-wrap .button {
+        padding: 0 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        border-radius: 3px;
+        background-image: -moz-linear-gradient( -90deg, rgb(248,40,129) 0%, rgb(255,6,110) 51%, rgb(238,6,99) 100%);
+        background-image: -webkit-linear-gradient(
+                -90deg
+                , rgb(248,40,129) 0%, rgb(255,6,110) 51%, rgb(238,6,99) 100%);
+        background-image: -ms-linear-gradient( -90deg, rgb(248,40,129) 0%, rgb(255,6,110) 51%, rgb(238,6,99) 100%);
+        transition: all 0.25s linear;
+        min-width: 190px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 500px) {
     #excursion .excursion-box .box-header {
@@ -279,11 +310,6 @@
         justify-content: flex-start;
         display: flex;
     }
-    .btn-wrap .button {
-        width: 141px;
-        height: 28px;
-        font-size: 11px;
-    }
     .section-title {
         font-size: 24px;
         line-height: 27px;
@@ -310,7 +336,7 @@
         text-align: left;
         margin-bottom: 13px;
         font-size: 13px;
-        line-height: 13px;
+        line-height: 19px;
     }
     #about-excursion .box .box-hover_text {
         padding: 73px 27px 27px 27px;
@@ -368,6 +394,7 @@
     #excursion .excursion-box .box-body .body-option .item {
         width: 47%;
     }
+
 }
 @media (max-width: 360px) {
     #excursion .excursion-box .box-header .subtitle {
@@ -376,5 +403,8 @@
     }
     #excursion .excursion-box .box-body .body-option .subtitle {
         font-size: 21px;
+    }
+    #about-excursion .box .box-hover_text p {
+        line-height: 16px;
     }
 }

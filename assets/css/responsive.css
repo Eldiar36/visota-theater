@@ -9,7 +9,7 @@
 @media (max-width: 1300px) {
     #excursion .container {
         width: 100%;
-        max-width: 95%;
+        max-width: 100%
     }
     #excursion .excursion-box .box-body {
         padding: 50px 90px;

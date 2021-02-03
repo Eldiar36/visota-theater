@@ -307,7 +307,7 @@
         margin-bottom: 0;
     }
     #excursion .excursion-box .box-body .btn-wrap {
-        justify-content: flex-start;
+        justify-content: center;
         display: flex;
     }
     .section-title {
@@ -356,8 +356,11 @@
     }
     #about-excursion .btn-wrap {
         margin-top: 41px;
-        justify-content: flex-start;
-        margin-left: 40px;
+        justify-content: center;
+        margin-left: 0;
+    }
+    #exclusive {
+        padding-bottom: 28px;
     }
     #exclusive .exclusive-box {
         padding: 47px 26px 24px 41px;
@@ -371,6 +374,10 @@
     #exclusive .exclusive-box .subtitle {
         font-size: 13px;
         line-height: 15px;
+    }
+    #exclusive .exclusive-box .btn-wrap {
+        justify-content: center;
+        display: flex;
     }
     #exclusive .exclusive-box .btn-wrap .button {
         margin-top: 123px;

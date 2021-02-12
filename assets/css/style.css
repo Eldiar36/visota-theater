@@ -123,7 +123,6 @@ main {
 
 #excursion .excursion-box .box-header {
     width: 100%;
-    height: 440px;
     padding: 246px 0 26px 0;
     background: url("../images/img1.png")no-repeat fixed;
     background-size: cover;
@@ -352,10 +351,6 @@ main {
 
 #about-excursion .second-row .info_text.first-row_col {
     margin-bottom: 94px;
-}
-
-#about-excursion .second-row .info_text.last:before {
-    display: none;
 }
 
 #about-excursion .second-row .info_text.last p {

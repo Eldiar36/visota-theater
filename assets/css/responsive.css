@@ -432,6 +432,7 @@
     }
     #exclusive .exclusive-box .btn-wrap .button {
         margin-top: 123px;
+        margin-left: -10px;
     }
     #exclusive .info_box {
         padding: 33px 27px 83px 41px;

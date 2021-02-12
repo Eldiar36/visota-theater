@@ -1,3 +1,60 @@
+@media (max-width: 1600px) {
+    #excursion .container {
+        width: 1152px;
+        padding: 0 15px;
+    }
+    #excursion .excursion-box .box-header {
+        width: 100%;
+        padding: 285px 0 40px 0;
+    }
+    #excursion .excursion-box .box-body {
+        padding: 50px 62px;
+    }
+    #excursion .excursion-box .box-body .body_info .title {
+        width: auto;
+    }
+    #excursion .excursion-box .box-body .body_info span {
+        font-size: 16px;
+        line-height: 25px;
+        color: #ffffff;
+        width: 41%;
+        margin-left: 57px;
+    }
+    #excursion .excursion-box .box-body .body-option .item:first-child {
+        margin-right: 106px;
+    }
+    #excursion .excursion-box .box-body .body-option .item:nth-child(2) {
+        margin-right: 105px;
+    }
+    #excursion .excursion-box .box-body .body-option .item:nth-child(3) {
+        margin-right: 74px;
+    }
+    #about-excursion .container {
+        width: 946px;
+    }
+    #about-excursion .box {
+        height: 442px;
+    }
+    #about-excursion .box .box-hover_text {
+        background-color: rgb(40, 49, 90);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        top: 0;
+        z-index: 1;
+        padding: 65px 45px 0 42px;
+    }
+    #about-excursion .box .title {
+        font-size: 32px;
+    }
+    #about-excursion .second-row .info_text p {
+        font-family: "BebasNeueBold", sans-serif;
+        font-size: 29px;
+        line-height: 32px;
+    }
+}
 @media (max-width: 1500px) {
     #excursion .excursion-box .box-body .body_info span {
         width: 50%;
@@ -7,13 +64,7 @@
     }
 }
 @media (max-width: 1300px) {
-    #excursion .container {
-        width: 100%;
-        max-width: 100%
-    }
-    #excursion .excursion-box .box-body {
-        padding: 50px 90px;
-    }
+
     #excursion .excursion-box .box-body .body-option .item:first-child {
         margin-right: auto;
     }
@@ -26,13 +77,15 @@
 
 }
 @media   (max-width: 1200px) {
+    #excursion .container{
+        width: 960px;
+    }
+    #excursion .excursion-box .box-header .subtitle {
+        font-size: 75px;
+    }
     #excursion .excursion-box .box-body .body_info .title {
         font-size: 40px;
         line-height: 45px;
-    }
-    #excursion .excursion-box .box-body .body_info span {
-        font-size: 18px;
-        line-height: 25px;
     }
     #excursion .excursion-box .box-body {
         padding: 50px 60px;

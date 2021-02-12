@@ -268,7 +268,8 @@ main {
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    transition: 1.2s ease;
 }
 
 #about-excursion .box .title {
@@ -282,7 +283,9 @@ main {
 #about-excursion .box:hover .box-hover_text {
     opacity: 0.8;
 }
-
+#about-excursion .box:hover{
+    transform: scale(1.015);
+}
 #about-excursion .box .box-hover_text {
     background-color: rgb(40, 49, 90);
     height: 100%;

@@ -123,7 +123,7 @@ main {
 
 #excursion .excursion-box .box-header {
     width: 100%;
-    padding: 580px 0 50px 0;
+    padding: 246px 0 26px 0;
     background: url("../images/img1.png") no-repeat;
     background-size: cover;
     display: flex;
@@ -148,12 +148,9 @@ main {
 #excursion {
     padding-top: 80px;
 }
-
 #excursion .container {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-
+    width: 1152px;
+    max-width: 1152px;
 }
 
 #excursion .excursion-box .box-header .title {
@@ -175,7 +172,7 @@ main {
 }
 
 #excursion .excursion-box .box-body {
-    padding: 50px 116px;
+    padding: 50px 90px;
     background: url("../images/img2.png") no-repeat;
     background-size: cover;
 }
@@ -190,18 +187,19 @@ main {
 }
 
 #excursion .excursion-box .box-body .body_info .title {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 52px;
     color: #fd227e;
     font-family: "BebasNeueBold", sans-serif;
-    width: 38%;
+    width: auto;
+    margin-right: 60px;
 }
 
 #excursion .excursion-box .box-body .body_info span {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 25px;
     color: #ffffff;
-    width: 37%;
+    width: 47%;
 }
 
 #excursion .excursion-box .box-body .body-option {
@@ -211,7 +209,7 @@ main {
 }
 
 #excursion .excursion-box .box-body .body-option .item:first-child {
-    margin-right: 107px;
+    margin-right: auto;
 }
 
 #excursion .excursion-box .box-body .body-option .item:nth-child(2) {

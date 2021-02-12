@@ -123,16 +123,20 @@ main {
 
 #excursion .excursion-box .box-header {
     width: 100%;
+    height: 440px;
     padding: 246px 0 26px 0;
-    background: url("../images/img1.png") no-repeat;
+    background-image: url("../images/img1.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    background-attachment: fixed;
 }
-
+.parallax {
+    background-attachment: scroll;
+}
 #excursion .excursion-box .box-header:after {
     content: "";
     background: url("../images/Rectangle 1 copy 3.png") no-repeat;
